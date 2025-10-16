@@ -1,42 +1,69 @@
-/* .navcontainer{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: #333;
-    color: white;
-} */
-
-.naving{
-    width:87%;
-    padding: 16px 24px;
-    margin: auto;
-}
-.navlogo{
-font-family: Integral CF;
-font-size: 32px;
-}
-.navlinks{
-font-family: Satoshi;
-font-weight: 400;
-}
-.navselect{
-    margin-left:30px;
-}
-.navselect option{
-    font-family: 'Poppins', sans-serif;
+.naving {
+  width: 87%;
+  padding: 16px 24px;
+  margin: auto;
 }
 
-.navsearch input{
-width: 577px;
-height: 48px;
-border-radius: 62px;
-padding:12px 16px;
+.navlogo {
+  font-family: "Integral CF";
+  font-size: 32px;
 }
-@media (max-width: 768px) {
-.naving{
-    width:100%;
+
+.navlinks {
+  font-family: "Satoshi";
+  font-weight: 400;
+}
+
+.navselect {
+  margin-left: 30px;
+}
+
+.navselect option {
+  font-family: "Poppins", sans-serif;
+}
+
+.navsearch input {
+  width: 577px;
+  height: 48px;
+  border-radius: 62px;
+  padding: 12px 16px;
+}
+
+/* 📱 الموبايل */
+@media (max-width: 767px) {
+  .naving {
+    width: 100%;
     padding: 8px 12px;
+  }
+
+  .navsearch input {
+    width: 100%;
+    height: 42px;
+  }
 }
+
+/* 💻 التابلت والشاشات المتوسطة من 768px إلى 1250px */
+@media (min-width: 768px) and (max-width: 1250px) {
+  .naving {
+    width: 90%;
+    margin: auto;
+    padding: 10px 20px;
+  }
+
+  /* 👇 خلي وضع الموبايل يشتغل هنا كمان */
+  .md\:hidden {
+    display: block !important;
+  }
+
+  .md\:flex {
+    display: none !important;
+  }
+
+  .navsearch input {
+    width: 420px;
+  }
+
+  .navlogo {
+    font-size: 28px;
+  }
 }
-    

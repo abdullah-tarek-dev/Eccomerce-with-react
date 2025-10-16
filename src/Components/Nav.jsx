@@ -27,7 +27,7 @@ export default function Nav() {
   }, [searchOpenMobile]);
 
   return (
-    <nav className="naving  bg-white  sticky top-0 z-40 ">
+    <nav className="naving  bg-white  sticky top-0  ">
       <div className="">
         {/* main row */}
         <div className="flex items-center justify-between h-16 md:h-20">

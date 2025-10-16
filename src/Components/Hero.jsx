@@ -79,7 +79,7 @@ const Hero = () => {
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.8, duration: 0.8 }}
-            className="motiondiv flex flex-wrap justify-center gap-8 text-center md:text-left"
+            className="motiondiv flex  justify-center gap-8 text-center"
           >
             <div>
               <h2 className="text-2xl font-bold">
@@ -104,6 +104,7 @@ const Hero = () => {
 
         {/* -------- Right Side (Rotating Stars) -------- */}
         <div className="hidden md:flex justify-center items-center relative">
+
           <motion.img
             src="/assets/Vector (1).png"
             alt="rotating star"

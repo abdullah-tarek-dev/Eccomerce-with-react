@@ -1,0 +1,54 @@
+.motionh1{
+    font-family: Integral CF;
+font-size: 64px;
+line-height: 64px;
+margin-bottom: 24px; /*addition*/
+}
+.Hero{
+    padding:64px 96px;
+}
+.Hero .Herocontainer{
+    margin:auto;
+}
+.Hero .motionp{
+    margin-bottom: 32px;
+}
+.Hero .motionbutton{
+    padding:12px 32px;
+}
+.Hero .motiondiv{
+    margin-top:48px;
+}
+@media(max-width:768px){
+        .motionh1{
+        font-size: 54px;
+        line-height: 58px;
+        margin-bottom: 16px; /*addition*/
+    }
+}
+@media (max-width: 600px) {
+    .Hero{
+        padding:32px 16px;
+    }
+    .motionh1{
+        font-size: 48px;
+        line-height: 50px;
+        margin-bottom: 16px; /*addition*/
+    }
+    .Hero .motionp{
+        margin-bottom: 24px;
+    }
+    .Hero .motionbutton{
+        padding:8px 16px;
+    }
+    .Hero .motiondiv{
+        margin-top:24px;
+    }
+}
+@media (max-width: 420px) {
+        .motionh1{
+        font-size: 37px;
+        line-height: 42px;
+        margin-bottom: 16px; /*addition*/
+    }
+}

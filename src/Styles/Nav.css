@@ -1,0 +1,42 @@
+/* .navcontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+} */
+
+.naving{
+    width:87%;
+    padding: 16px 24px;
+    margin: auto;
+}
+.navlogo{
+font-family: Integral CF;
+font-size: 32px;
+}
+.navlinks{
+font-family: Satoshi;
+font-weight: 400;
+}
+.navselect{
+    margin-left:30px;
+}
+.navselect option{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navsearch input{
+width: 577px;
+height: 48px;
+border-radius: 62px;
+padding:12px 16px;
+}
+@media (max-width: 768px) {
+.naving{
+    width:100%;
+    padding: 8px 12px;
+}
+}
+    

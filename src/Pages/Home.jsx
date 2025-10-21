@@ -3,6 +3,8 @@ import Header from '../Components/Header'
 import Nav from '../Components/Nav'
 import Hero from '../Components/Hero'
 import Slider from '../Components/Slider'
+import ProductsList from '../Components/ProductsList'
+import Arrivals from './Arrivals'
 
 function Home() {
   return (
@@ -11,6 +13,7 @@ function Home() {
    <Nav/>
    <Hero/>
    <Slider/>
+   <Arrivals/>
     </>
 
   )

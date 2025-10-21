@@ -1,0 +1,12 @@
+.arrivalcontainer{
+    padding:60px 0;
+}
+.arrivalcontent{
+    margin: auto;
+}
+.arrivalcontent h1{
+font-family: Integral CF;
+font-size: 44px;
+line-height: 64px;
+margin-bottom: 24px; /*addition*/
+}

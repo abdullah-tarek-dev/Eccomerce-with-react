@@ -1,0 +1,15 @@
+.productcard{
+    padding:16px;
+}
+.productcard h3{
+    margin-top: 12px;
+}
+.productcard .rating{
+    margin-top: 4px;
+}
+.productcard .rating span{
+    margin-left: 8px;
+}
+.productcard p {
+    margin-top: 8px;
+}

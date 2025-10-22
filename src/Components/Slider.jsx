@@ -7,7 +7,7 @@ function Slider() {
     <div className="Slider bg-black w-full overflow-hidden ">
       <motion.div
         className="flex items-center gap-10 w-max"
-        animate={{ x: ["0%", "-50%"] }} 
+        animate={{ x: ["0%", "-20%"] }} 
         transition={{
           repeat: Infinity,
           duration: 15, 

@@ -48,7 +48,7 @@ const Hero = () => {
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2, duration: 0.8 }}
-            className="motionh1 font-extrabold text-black"
+            className="motionh1 font-extrabold text-black tracking-wide"
           >
             FIND CLOTHES <br />
             THAT MATCHES <br />

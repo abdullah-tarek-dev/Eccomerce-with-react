@@ -1,0 +1,15 @@
+.DressStyle{
+    padding: 32px;
+    margin:40px auto;
+}
+.DressStyle h2{
+    margin-bottom: 24px;
+    padding: 8px 16px;
+}
+.DressStyle h3{
+    margin: 16px 0;
+    padding: 4px 12px;
+}
+.collectrow{
+    margin:32px  auto 0;
+}

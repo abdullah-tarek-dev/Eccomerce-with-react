@@ -5,6 +5,8 @@ import Hero from '../Components/Hero'
 import Slider from '../Components/Slider'
 import ProductsList from '../Components/ProductsList'
 import Arrivals from './Arrivals'
+import DressStyle from '../Components/DressStyle'
+import HappyCustomers from '../Components/HappyCustomers'
 
 function Home() {
   return (
@@ -14,6 +16,8 @@ function Home() {
    <Hero/>
    <Slider/>
    <Arrivals/>
+   <DressStyle/>
+   <HappyCustomers/>
     </>
 
   )

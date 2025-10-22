@@ -27,7 +27,7 @@ export default function Nav() {
   }, [searchOpenMobile]);
 
   return (
-    <nav className="naving  bg-white  sticky top-0  ">
+    <nav className="naving  bg-white ">
       <div className="">
         {/* main row */}
         <div className="flex items-center justify-between h-16 md:h-20">
@@ -43,7 +43,7 @@ export default function Nav() {
             </button>
 
             {/* logo */}
-            <h1 className="navlogo flex-1 font-bold text-2xl">SHOP.CO</h1>
+            <h1 className="navlogo flex-1 font-bold text-2xl tracking-wide">SHOP.CO</h1>
           </div>
 
           {/* center links (desktop only) */}

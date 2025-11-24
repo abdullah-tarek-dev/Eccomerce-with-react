@@ -7,6 +7,7 @@ import ProductsList from '../Components/ProductsList'
 import Arrivals from './Arrivals'
 import DressStyle from '../Components/DressStyle'
 import HappyCustomers from '../Components/HappyCustomers'
+import Latest from '../Components/Latest'
 
 function Home() {
   return (
@@ -18,6 +19,7 @@ function Home() {
    <Arrivals/>
    <DressStyle/>
    <HappyCustomers/>
+   <Latest/>
     </>
 
   )

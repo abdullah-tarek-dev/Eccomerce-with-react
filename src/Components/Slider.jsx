@@ -10,7 +10,7 @@ function Slider() {
         animate={{ x: ["0%", "-20%"] }} 
         transition={{
           repeat: Infinity,
-          duration: 15, 
+          duration: 30, 
           ease: "linear",
         }}
       >

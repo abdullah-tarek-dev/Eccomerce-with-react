@@ -27,7 +27,7 @@ const ProductsList = () => {
       {visibleCount < products.length && (
         <button
           onClick={handleViewMore}
-          className=" bg-white text-black border-2 border-black rounded-full  hover:bg-black hover:text-white transition-all"
+          className=" bg-white text-black border-2 border-black rounded-full  hover:bg-black hover:text-white transition-all cursor-pointer"
         >
           View More
         </button>

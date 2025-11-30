@@ -69,7 +69,7 @@ const Hero = () => {
             initial={{ opacity: 0, scale: 0.8 }}
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.6, duration: 0.5 }}
-            className="motionbutton bg-black text-white rounded-full text-lg font-medium hover:bg-gray-900 transition"
+            className="motionbutton bg-black text-white rounded-full text-lg font-medium hover:bg-white hover:text-black cursor-pointer border-2 transition "
           >
             Shop Now
           </motion.button>

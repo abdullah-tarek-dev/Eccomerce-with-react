@@ -1,0 +1,21 @@
+footer{
+    padding : 64px 0 40px 0;
+    margin-top: 64px;
+}
+footer .container{
+    margin: 0 auto;
+}
+footer p.text{
+    margin-top: 16px;
+}
+footer .social{
+    margin-top: 24px;
+}
+footer .Links{
+    margin-bottom: 16px;
+}
+footer .divider{
+    margin: 40px 0;
+}
+
+
